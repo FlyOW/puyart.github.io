@@ -118,7 +118,7 @@
 					<nav class="header-nav">
 						<div class="social">
 							
-								<a class="segmentfault" target="_blank" href="http://segmentfault.com/blog/PuYart" title="segmentfault">segmentfault</a>
+								<a class="segmentfault" target="_blank" href="https://segmentfault.com/blog/puyart_56cc32f412c26" title="segmentfault">segmentfault</a>
 					        
 								<a class="weibo" target="_blank" href="https://weibo.com/Stephenzxb" title="weibo">weibo</a>
 					        
@@ -196,7 +196,7 @@
 			<nav class="header-nav">
 				<div class="social">
 					
-						<a class="segmentfault" target="_blank" href="http://segmentfault.com/blog/PuYart" title="segmentfault">segmentfault</a>
+						<a class="segmentfault" target="_blank" href="https://segmentfault.com/blog/puyart_56cc32f412c26" title="segmentfault">segmentfault</a>
 			        
 						<a class="weibo" target="_blank" href="https://weibo.com/Stephenzxb" title="weibo">weibo</a>
 			        
@@ -782,11 +782,11 @@
 
 
   
-    <article id="post-Daily-Aphorism" class="article article-type-post" itemscope itemprop="blogPost">
+    <article id="post-Xia-Chu-Fang-Problems" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
-      <a href="/extract/Daily-Aphorism/" class="article-date">
-  	<time datetime="1900-05-05T02:18:51.000Z" itemprop="datePublished">1900-05-05</time>
+      <a href="/art/Xia-Chu-Fang-Problems/" class="article-date">
+  	<time datetime="1990-05-04T20:05:05.000Z" itemprop="datePublished">1990-05-05</time>
 </a>
     </div>
   
@@ -799,7 +799,7 @@
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/extract/Daily-Aphorism/">每日佳句或心灵鸡汤</a>
+      <a class="article-title" href="/art/Xia-Chu-Fang-Problems/">下厨房前端题目</a>
     </h1>
   
 
@@ -808,28 +808,50 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="@傅盛：在这世上就没有自由自在的人">@傅盛：在这世上就没有自由自在的人</h2><p><strong>@无知百晓</strong>：又想起了我朋友的那句话，不攀事业，不谈恋爱，不就剩下自由了。</p>
-<p><img src="/image/Daily-Aphorism/2015-11-26/thumb/01.jpg" alt="在这世上本就没有自由自在的人"> <img src="/image/Daily-Aphorism/2015-11-26/thumb/02.jpg" alt="只要你有欲望"><br><img src="/image/Daily-Aphorism/2015-11-26/thumb/03.jpg" alt="有情感"> <img src="/image/Daily-Aphorism/2015-11-26/thumb/04.jpg" alt="就绝不可能自由自在"><br>
+        <ol>
+<li>水平垂直居中<ul>
+<li><a href="http://codepen.io/PuYart/pen/zqpJWo" target="_blank" rel="external">http://codepen.io/PuYart/pen/zqpJWo</a><ul>
+<li>flexbox</li>
+<li>absolute 和负值 margin</li>
+<li>transform</li>
+<li>absolute &amp; margin:auto</li>
+<li>vertical-align &amp; ::after</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>实现布局<ul>
+<li><a href="http://codepen.io/PuYart/pen/JXMmew?editors=1100" target="_blank" rel="external">http://codepen.io/PuYart/pen/JXMmew?editors=1100</a></li>
+<li><a href="http://codepen.io/PuYart/pen/JXMmew?editors=1100" target="_blank" rel="external">http://codepen.io/PuYart/pen/JXMmew?editors=1100</a></li>
+</ul>
+</li>
+<li><p>这是由于 <code>console.log</code> 执行时需要 <code>console</code> 的上下文环境造成的</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> log = <span class="built_in">console</span>.log.bind(<span class="built_in">console</span>);</span><br><span class="line">log(<span class="number">123</span>);</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>js 动画</p>
+<ul>
+<li><a href="http://codepen.io/PuYart/pen/dMJQob" target="_blank" rel="external">http://codepen.io/PuYart/pen/dMJQob</a></li>
+</ul>
+</li>
+<li><p>Promise 实现 ajax</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span><br><span class="line"> * 一个ajax工具函数</span><br><span class="line"> * @param &#123;string&#125; url - 请求的url</span><br><span class="line"> * @param &#123;string&#125; method - 请求的method，GET、POST等</span><br><span class="line"> * @return &#123;Promise.&lt;string|Error&gt;&#125;</span><br><span class="line"> */</span></span><br><span class="line"><span class="keyword">var</span> ajax = <span class="function"><span class="keyword">function</span> (<span class="params">url, method</span>) </span>&#123;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>阮一峰老师的《ECMAScript 6 入门》</p>
+</li>
+</ol>
+
       
     </div>
     
     <div class="article-info article-info-index">
       
       
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/摘抄/">摘抄</a></li></ul>
-	</div>
-
       
 	<div class="article-category tagcloud">
-	<a class="article-category-link" href="/categories/extract/">extract</a>
+	<a class="article-category-link" href="/categories/art/">art</a>
 	</div>
 
 
-      
-        <p class="article-more-link">
-          <a  href="/extract/Daily-Aphorism/#more">more >></a>
-        </p>
       
       <div class="clearfix"></div>
     </div>
@@ -847,7 +869,7 @@
   
   
     <nav id="page-nav">
-      <a class="extend prev" rel="prev" href="/">&laquo; Prev</a><a class="page-number" href="/">1</a><span class="page-number current">2</span>
+      <a class="extend prev" rel="prev" href="/">&laquo; Prev</a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/">3</a><a class="extend next" rel="next" href="/page/3/">Next &raquo;</a>
     </nav>
   
 </div>
