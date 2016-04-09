@@ -5,55 +5,43 @@
   
   <title>下厨房前端题目 | PuYart · 普雅花开</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="水平垂直居中
-http://codepen.io/PuYart/pen/zqpJWo
+  <meta name="description" content="水平垂直居中http://codepen.io/PuYart/pen/zqpJWo
 flexbox
-absolute 和负值 margin
-transform
+absolute &amp;amp; 负值 margin
+absolute &amp;amp; transform
 absolute &amp;amp; margin:auto
 vertical-align &amp;amp; ::after
 
 
-
-
 实现布局
-http://codepen.io/PuYart/pen/JXMmew?editors=1100
-http:">
+123456&amp;lt;div class=&quot;box&quot;&amp;gt;  &amp;lt;he">
 <meta property="og:type" content="article">
 <meta property="og:title" content="下厨房前端题目">
 <meta property="og:url" content="http://puyart.net/art/Xia-Chu-Fang-Problems/index.html">
 <meta property="og:site_name" content="PuYart · 普雅花开">
-<meta property="og:description" content="水平垂直居中
-http://codepen.io/PuYart/pen/zqpJWo
+<meta property="og:description" content="水平垂直居中http://codepen.io/PuYart/pen/zqpJWo
 flexbox
-absolute 和负值 margin
-transform
+absolute &amp;amp; 负值 margin
+absolute &amp;amp; transform
 absolute &amp;amp; margin:auto
 vertical-align &amp;amp; ::after
 
 
-
-
 实现布局
-http://codepen.io/PuYart/pen/JXMmew?editors=1100
-http:">
-<meta property="og:updated_time" content="2016-04-09T06:55:19.740Z">
+123456&amp;lt;div class=&quot;box&quot;&amp;gt;  &amp;lt;he">
+<meta property="og:updated_time" content="2016-04-09T08:08:54.253Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="下厨房前端题目">
-<meta name="twitter:description" content="水平垂直居中
-http://codepen.io/PuYart/pen/zqpJWo
+<meta name="twitter:description" content="水平垂直居中http://codepen.io/PuYart/pen/zqpJWo
 flexbox
-absolute 和负值 margin
-transform
+absolute &amp;amp; 负值 margin
+absolute &amp;amp; transform
 absolute &amp;amp; margin:auto
 vertical-align &amp;amp; ::after
 
 
-
-
 实现布局
-http://codepen.io/PuYart/pen/JXMmew?editors=1100
-http:">
+123456&amp;lt;div class=&quot;box&quot;&amp;gt;  &amp;lt;he">
   
     <link rel="alternative" href="/atom.xml" title="PuYart · 普雅花开" type="application/atom+xml">
   
@@ -285,30 +273,28 @@ http:">
     <div class="article-entry" itemprop="articleBody">
       
         <ol>
-<li>水平垂直居中<ul>
-<li><a href="http://codepen.io/PuYart/pen/zqpJWo" target="_blank" rel="external">http://codepen.io/PuYart/pen/zqpJWo</a><ul>
+<li>水平垂直居中<br><a href="http://codepen.io/PuYart/pen/zqpJWo" target="_blank" rel="external">http://codepen.io/PuYart/pen/zqpJWo</a><ul>
 <li>flexbox</li>
-<li>absolute 和负值 margin</li>
-<li>transform</li>
+<li>absolute &amp; 负值 margin</li>
+<li>absolute &amp; transform</li>
 <li>absolute &amp; margin:auto</li>
 <li>vertical-align &amp; ::after</li>
 </ul>
 </li>
-</ul>
+<li><p>实现布局</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"box"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="title">header</span>&gt;</span>header<span class="tag">&lt;/<span class="title">header</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="title">main</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"content"</span>&gt;</span>content<span class="tag">&lt;/<span class="title">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="title">main</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="title">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/* common */</span></span><br><span class="line"><span class="tag">body</span> <span class="rules">&#123;</span><br><span class="line">  <span class="rule"><span class="attribute">margin</span>:<span class="value"> <span class="number">0</span></span></span>;</span><br><span class="line">&#125;</span></span><br><span class="line"></span><br><span class="line"><span class="class">.box</span> <span class="rules">&#123;</span><br><span class="line">  <span class="rule"><span class="attribute">width</span>:<span class="value"> <span class="number">100%</span></span></span>;</span><br><span class="line">  <span class="rule"><span class="attribute">overflow</span>:<span class="value"> hidden</span></span>;</span><br><span class="line">  <span class="rule"><span class="attribute">text-align</span>:<span class="value"> center</span></span>;</span><br><span class="line">&#125;</span></span><br><span class="line"></span><br><span class="line"><span class="class">.box</span> &gt; <span class="tag">header</span> <span class="rules">&#123;</span><br><span class="line">  <span class="rule"><span class="attribute">width</span>:<span class="value"> <span class="number">100%</span></span></span>;</span><br><span class="line">  <span class="rule"><span class="attribute">height</span>:<span class="value"> <span class="number">200px</span></span></span>;</span><br><span class="line">  <span class="rule"><span class="attribute">line-height</span>:<span class="value"> <span class="number">200px</span></span></span>;</span><br><span class="line">  <span class="rule"><span class="attribute">background</span>:<span class="value"> teal</span></span>;</span><br><span class="line">&#125;</span></span><br><span class="line"></span><br><span class="line"><span class="class">.box</span> &gt; <span class="tag">main</span> <span class="rules">&#123;</span><br><span class="line">  <span class="rule"><span class="attribute">margin-top</span>:<span class="value"> <span class="number">200px</span></span></span>;</span><br><span class="line">  <span class="rule"><span class="attribute">height</span>:<span class="value"> <span class="number">100%</span></span></span>;</span><br><span class="line">  <span class="rule"><span class="attribute">overflow</span>:<span class="value"> scroll</span></span>;</span><br><span class="line">&#125;</span></span><br><span class="line"></span><br><span class="line"><span class="class">.box</span> &gt; <span class="tag">main</span> &gt; <span class="class">.content</span> <span class="rules">&#123;</span><br><span class="line">  <span class="rule"><span class="attribute">padding-top</span>:<span class="value"> <span class="number">200px</span></span></span>;</span><br><span class="line">  <span class="rule"><span class="attribute">height</span>:<span class="value"> <span class="number">1000px</span></span></span>;</span><br><span class="line">  <span class="rule"><span class="attribute">background</span>:<span class="value"> chocolate</span></span>;</span><br><span class="line">&#125;</span></span><br></pre></td></tr></table></figure>
+<ul>
+<li><p>使用 <code>fixed/absolute &amp; vh</code> <a href="http://codepen.io/PuYart/pen/JXMmew" target="_blank" rel="external">http://codepen.io/PuYart/pen/JXMmew</a></p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="class">.box</span> <span class="rules">&#123;</span><br><span class="line">  <span class="rule"><span class="attribute">height</span>:<span class="value"> <span class="number">100vh</span></span></span>;</span><br><span class="line">&#125;</span></span><br><span class="line"></span><br><span class="line"><span class="class">.box</span> &gt; <span class="tag">header</span> <span class="rules">&#123;</span><br><span class="line">  <span class="rule"><span class="attribute">position</span>:<span class="value"> fixed</span></span>;</span><br><span class="line">  <span class="comment">/*position: absolute;*/</span></span><br><span class="line">  <span class="rule"><span class="attribute">top</span>:<span class="value"> <span class="number">0</span></span></span>;</span><br><span class="line">  <span class="rule"><span class="attribute">left</span>:<span class="value"> <span class="number">0</span></span></span>;</span><br><span class="line">&#125;</span></span><br></pre></td></tr></table></figure>
 </li>
-<li>实现布局<ul>
-<li><a href="http://codepen.io/PuYart/pen/JXMmew?editors=1100" target="_blank" rel="external">http://codepen.io/PuYart/pen/JXMmew?editors=1100</a></li>
-<li><a href="http://codepen.io/PuYart/pen/JXMmew?editors=1100" target="_blank" rel="external">http://codepen.io/PuYart/pen/JXMmew?editors=1100</a></li>
+<li><p><code>fixed/absolute &amp;  body {width: 100%}</code> <a href="http://codepen.io/PuYart/pen/yOprre" target="_blank" rel="external">http://codepen.io/PuYart/pen/yOprre</a></p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">html</span>,</span><br><span class="line"><span class="tag">body</span> <span class="rules">&#123;</span><br><span class="line">  <span class="rule"><span class="attribute">height</span>:<span class="value"> <span class="number">100%</span></span></span>;</span><br><span class="line">&#125;</span></span><br><span class="line"></span><br><span class="line"><span class="class">.box</span> <span class="rules">&#123;</span><br><span class="line">  <span class="rule"><span class="attribute">height</span>:<span class="value"> <span class="number">100%</span></span></span>;</span><br><span class="line">&#125;</span></span><br><span class="line"></span><br><span class="line"><span class="class">.box</span> &gt; <span class="tag">header</span> <span class="rules">&#123;</span><br><span class="line">  <span class="rule"><span class="attribute">position</span>:<span class="value"> fixed</span></span>;</span><br><span class="line">  <span class="comment">/*position: absolute;*/</span></span><br><span class="line">  <span class="rule"><span class="attribute">top</span>:<span class="value"> <span class="number">0</span></span></span>;</span><br><span class="line">  <span class="rule"><span class="attribute">left</span>:<span class="value"> <span class="number">0</span></span></span>;</span><br><span class="line">&#125;</span></span><br></pre></td></tr></table></figure>
+</li>
 </ul>
 </li>
 <li><p>这是由于 <code>console.log</code> 执行时需要 <code>console</code> 的上下文环境造成的</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> log = <span class="built_in">console</span>.log.bind(<span class="built_in">console</span>);</span><br><span class="line">log(<span class="number">123</span>);</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>js 动画</p>
-<ul>
-<li><a href="http://codepen.io/PuYart/pen/dMJQob" target="_blank" rel="external">http://codepen.io/PuYart/pen/dMJQob</a></li>
-</ul>
-<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">var b = document.getElementById('b');</span><br><span class="line">var count = 1;</span><br><span class="line"></span><br><span class="line">b.style.left = swing(count++ / 40, 500) + 'px';</span><br><span class="line">var an = setInterval(function() &#123;</span><br><span class="line">  if(count &gt; 40) &#123;</span><br><span class="line">    clearInterval(an);</span><br><span class="line">  &#125;</span><br><span class="line">  b.style.left = swing(count++ / 40, 500) + 'px';</span><br><span class="line">&#125;, 10)</span><br><span class="line"></span><br><span class="line">function swing(t, attr) &#123;</span><br><span class="line">  return (0.5 - Math.cos( t * Math.PI ) / 2) * attr;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">  var log = console.log.bind(console);</span><br><span class="line">  log(123);</span><br><span class="line">  ```  </span><br><span class="line">4. js 动画  </span><br><span class="line">  http://codepen.io/PuYart/pen/dMJQob</span><br><span class="line"></span><br><span class="line">  ```javascript</span><br><span class="line">  var b = document.getElementById('b');</span><br><span class="line">  var count = 1;</span><br><span class="line"></span><br><span class="line">  b.style.left = swing(count++ / 40, 500) + 'px';</span><br><span class="line">  var an = setInterval(function() &#123;</span><br><span class="line">    if(count &gt; 40) &#123;</span><br><span class="line">      clearInterval(an);</span><br><span class="line">    &#125;</span><br><span class="line">    b.style.left = swing(count++ / 40, 500) + 'px';</span><br><span class="line">  &#125;, 10)</span><br><span class="line"></span><br><span class="line">  function swing(t, attr) &#123;</span><br><span class="line">    return (0.5 - Math.cos( t * Math.PI ) / 2) * attr;</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>Promise 实现 ajax</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span><br><span class="line"> * 一个ajax工具函数</span><br><span class="line"> * @param &#123;string&#125; url - 请求的url</span><br><span class="line"> * @param &#123;string&#125; method - 请求的method，GET、POST等</span><br><span class="line"> * @return &#123;Promise.&lt;string|Error&gt;&#125;</span><br><span class="line"> */</span></span><br><span class="line"><span class="keyword">var</span> ajax = <span class="function"><span class="keyword">function</span> (<span class="params">url, method</span>) </span>&#123;</span><br><span class="line">  method = method || <span class="string">'GET'</span></span><br><span class="line"></span><br><span class="line">  <span class="keyword">var</span> promise = <span class="keyword">new</span> <span class="built_in">Promise</span>(<span class="function"><span class="keyword">function</span>(<span class="params">resolve, reject</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">var</span> xhr = <span class="keyword">new</span> XMLHttpRequest()</span><br><span class="line">    xhr.open(method.toUpperCase(), url)</span><br><span class="line">    xhr.onreadystatechange = <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">      <span class="keyword">if</span>(<span class="keyword">this</span>.readyState === <span class="number">4</span>) &#123;</span><br><span class="line">        <span class="keyword">if</span>(<span class="keyword">this</span>.status === <span class="number">200</span>) &#123;</span><br><span class="line">          resolve(<span class="keyword">this</span>.response)</span><br><span class="line">        &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">          reject(<span class="keyword">this</span>.statusText)</span><br><span class="line">        &#125;</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    xhr.send()</span><br><span class="line">  &#125;)</span><br><span class="line"></span><br><span class="line">  <span class="keyword">return</span> promise</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
